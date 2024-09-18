@@ -43,23 +43,28 @@ The ‘TMDB 10000 Movie Dataset’ is taken into consideration for movie recomme
 ●	‘Overview’: It is a short description of the movie. 
 ●	‘Popularity’: It is a metric which indicates popularity. 
 ●	‘Release_date’: It consists of the release date of the movie.  
-●	‘Vote_average’: It indicates the average of the votes. ● 	‘Vote_count’: It indicates the vote count.  
+●	‘Vote_average’: It indicates the average of the votes. ● 	‘Vote_count’: It indicates the vote count.
+
 
 Implementation Of Machine Learning Algorithm
 
-1. Gather the data 
+1. Gather the data
+   
 For this problem, I decided to use the dataset containing 10000 movies from TMDB. This table gathers, in fact, 10000 observations (the movies) and 9 columns. This is what the data frame’s head looks like.
 ![image](https://github.com/user-attachments/assets/7d380499-f152-4ba6-9c01-d34f6de1d214)
 
 2. Data cleaning
+
 After gathering, to clean the data we check for missing values in the dataset and the new data frame is ready for vectorization.
 ![image](https://github.com/user-attachments/assets/d4e6a160-124e-488d-8f00-cdcf6e82903f)
 
 3. Modeling
+
 To detect the similarities between movies, I decided to use Count Vectorizer. Once I have the matrix containing the count for each word, we can apply the cosine similarity function.
 ![image](https://github.com/user-attachments/assets/6ebe7656-529e-47a9-8b47-156cc1f60dcd)
 
-4. Testing the recommender 
+4. Testing the recommender
+   
 The job is done! Let’s test it by entering Iron Man: these are the top 5 recommended movies (among the 10000 available).
 ![image](https://github.com/user-attachments/assets/c29ef7e4-b2b6-4db9-83b2-8538d3ae2d0b)
 
