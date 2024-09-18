@@ -30,7 +30,9 @@ Hardware Requirements
 5. Power Supply for Backup
 
 
+
 Architecture of the System
+
 ![image](https://github.com/user-attachments/assets/14980f93-0c58-4b18-a694-c546a4c1eac3)
 
 Dataset Details 
