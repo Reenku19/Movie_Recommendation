@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8eebce9b-bd23-4b0a-818b-84fb5cf34b57)Content-Based Movie Recommendation System
+Content-Based Movie Recommendation System
 
 This project implements a content-based movie recommendation system that suggests movies to users based on their preferences and the content of the movies themselves. By analyzing movie attributes like genre,title, original_langauage, popularity and potentially plot descriptions (depending on your implementation), the system identifies similar movies and recommends them.
 
