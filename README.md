@@ -29,6 +29,7 @@ Hardware Requirements
 4. x86 64-bit CPU (Intel / AMD architecture)
 5. Power Supply for Backup
 
+
 Architecture of the System
 ![image](https://github.com/user-attachments/assets/14980f93-0c58-4b18-a694-c546a4c1eac3)
 
@@ -69,18 +70,22 @@ The job is done! Let’s test it by entering Iron Man: these are the top 5 recom
 ![image](https://github.com/user-attachments/assets/c29ef7e4-b2b6-4db9-83b2-8538d3ae2d0b)
 
 
+
 Anaylsis
 
 Graph Plotting 
 
 1. Pair Plot
+
 ![image](https://github.com/user-attachments/assets/fdac599c-b367-406a-b2c6-979f559ba3a5)
 
 2. Bar Graph
+   
 ![image](https://github.com/user-attachments/assets/d6ed6714-4a4f-4f13-b7ec-c386a6cfcd3e)
 
 
 Snapshots
+
 
 ![image](https://github.com/user-attachments/assets/7c9281d6-761d-4815-882e-6295051bf20a)
 ![image](https://github.com/user-attachments/assets/a8778bf6-aebc-49be-8061-fa11355acdb1)
