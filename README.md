@@ -1,8 +1,8 @@
-Content-Based Movie Recommendation System
+**Content-Based Movie Recommendation System**
 
 This project implements a content-based movie recommendation system that suggests movies to users based on their preferences and the content of the movies themselves. By analyzing movie attributes like genre,title, original_langauage, popularity and potentially plot descriptions (depending on your implementation), the system identifies similar movies and recommends them.
 
-Implementation Details
+**Implementation Details**
 
 1. Data Preprocessing: Describe how you clean and prepare the movie data (e.g., handling missing values, converting categorical data).
 
@@ -14,14 +14,14 @@ Implementation Details
 
 5. Evaluation: (Optional) If applicable, describe any evaluation metrics used to assess the recommendation system's performance (e.g., precision, recall, recommendation accuracy).
 
-Software Requirements
+**Software Requirements**
 
 Operating System: Windows 10 or higher Programming:
 1. Anaconda distribution package (Jupyter Notebook)
 2. Anaconda distribution package (PyCharm Editor)
 3. Python libraries (NumPy, Pandas, Streamlit, Requests, SKlearn)
 
-Hardware Requirements
+**Hardware Requirements**
 
 1. Minimum 5 GB HDD space
 2. Intel Core 2 Duo or above processor
@@ -31,11 +31,11 @@ Hardware Requirements
 
 
 
-Architecture of the System
+**Architecture of the System**
 
 ![image](https://github.com/user-attachments/assets/14980f93-0c58-4b18-a694-c546a4c1eac3)
 
-Dataset Details 
+**Dataset Details** 
 
 
 The ‘TMDB 10000 Movie Dataset’ is taken into consideration for movie recommendation purposes in this research work. This dataset is available on kaggle.com. These files contain metadata for all 10,000 movies listed in the Dataset. The Data points include id, title, genre, original_language, overview, popularity, release_date, TMDB vote counts, and vote averages. The Movie Details have been collected from the TMDB Open API. Their API also provides access to data on many additional movies, actors and actresses, crew members, and TV shows. 
@@ -49,7 +49,7 @@ The ‘TMDB 10000 Movie Dataset’ is taken into consideration for movie recomme
 ●	‘Vote_average’: It indicates the average of the votes. ● 	‘Vote_count’: It indicates the vote count.
 
 
-Implementation Of Machine Learning Algorithm
+**Implementation Of Machine Learning Algorithm**
 
 1. Gather the data
    
@@ -73,7 +73,7 @@ The job is done! Let’s test it by entering Iron Man: these are the top 5 recom
 
 
 
-Anaylsis
+**Anaylsis**
 
 Graph Plotting 
 
@@ -86,7 +86,7 @@ Graph Plotting
 ![image](https://github.com/user-attachments/assets/d6ed6714-4a4f-4f13-b7ec-c386a6cfcd3e)
 
 
-Snapshots
+**Snapshots**
 
 
 ![image](https://github.com/user-attachments/assets/7c9281d6-761d-4815-882e-6295051bf20a)
